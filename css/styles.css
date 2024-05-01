@@ -1,0 +1,9 @@
+html{
+    font-size: 62.5%; /* Ajustamos el tamaño de la fuente de todo el documento */
+}
+
+body {
+    font-size: 16px; /* Y establecemos el tamaño de la fuente en el body a 16px */
+}
+
+/* Con el estilo de html y el body hacemos la conversión de 1rem = 10px; la medida utilizada será rem */
