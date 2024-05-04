@@ -4,57 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Santé</title>
+    <link rel="preload" href="css/normalize.css" as="style"><!-- Mejoramos la performance de la web precargando el css -->
+    <!-- Añadimos la librería normalize para establecer un conjunto común de estilos básicos en los elementos HTML para todos los navegadores -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="preload" href="css/styles.css" as="style"> <!-- Mejoramos la performance de la web precargando el css -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="contenedor">
     
     <!-- Menú de selección de la parte superior de la web -->
-    <nav>
-        <img src="img/la-sante-logo-oro.png" alt="Una imágen del logo del centro médico estético">
-        <a href="#">Home</a>
-        <a href="#sobreNosotros">Sobre Nosotros</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#galeria">Galería</a>
-        <a href="#contacto">Contacto</a>
+    <nav class="nav-principal">
+        <img class="nav-logo" src="img/la-sante-logo-oro.png" alt="Una imágen del logo del centro médico estético">
+        <div class="nav-link">
+            <a href="#">Home</a>
+            <a href="#sobreNosotros">Sobre Nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </div>
     </nav>
+
+    <section class="cabecera">
+        <div class="cabecera-contenido">
+            <h2>Centro médico y estético</h2>
+            <p>volver a sonreir con confianza</p>
+        </div>
+    </section>
     
 
-    <h2>Centro médico y estético<br>volver a sonreir con confianza</h2>
-
-    <section>
+    <section class="sombra">
         <h2 id="sobreNosotros">Sobre nosotros</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales neque a semper accumsan. Donec dignissim pretium ipsum sed porttitor. Praesent eget urna quis dui laoreet dapibus. Cras tristique lobortis ante sed ultrices. Nunc rhoncus purus elit, et faucibus est mattis vel. Etiam efficitur nisi ac lacus fringilla, at fringilla elit condimentum. </p>
-        <p>Etiam rhoncus ultricies ullamcorper. Pellentesque auctor augue a ipsum fermentum tincidunt. Donec felis diam, egestas blandit turpis non, luctus luctus est. In molestie nibh a urna tincidunt, id lobortis felis auctor. Integer fringilla metus non elit feugiat, non porta metus fermentum. Proin tincidunt vulputate massa, quis venenatis ligula aliquam sodales. Vivamus pulvinar, dui nec lacinia congue, sapien magna auctor libero, vitae iaculis odio lorem maximus ante. Sed vel sapien rhoncus sem tincidunt feugiat.</p>
 
-        <img src="" alt="">
-        <img src="" alt="Dos trabajadores del centro médico estético apoyados espalda contra espalda, con el uniforme blanco, cruzados de brazos y sonriendo.">
+        <div class="sobre-nosotros">
+            <div class="sobre-nosotros-izq">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales neque a semper accumsan. Donec dignissim pretium ipsum sed porttitor. Praesent eget urna quis dui laoreet dapibus. Cras tristique lobortis ante sed ultrices. Nunc rhoncus purus elit, et faucibus est mattis vel. Etiam efficitur nisi ac lacus fringilla, at fringilla elit condimentum. </p>
+                <p>Etiam rhoncus ultricies ullamcorper. Pellentesque auctor augue a ipsum fermentum tincidunt. Donec felis diam, egestas blandit turpis non, luctus luctus est. In molestie nibh a urna tincidunt, id lobortis felis auctor. Integer fringilla metus non elit feugiat, non porta metus fermentum. Proin tincidunt vulputate massa, quis venenatis ligula aliquam sodales. Vivamus pulvinar, dui nec lacinia congue, sapien magna auctor libero, vitae iaculis odio lorem maximus ante. Sed vel sapien rhoncus sem tincidunt feugiat.</p>
 
+                <img class="sobre-nosotros-opacidad" src="img/tratamiento.jpg" alt="">
+            </div>
+
+            <div class="sobre-nosotros-der">
+                <img src="img/trabajadores.png" alt="Dos trabajadores del centro médico estético apoyados espalda contra espalda, con el uniforme blanco, cruzados de brazos y sonriendo.">
+            </div>
+        </div>
+            
     </section>
 
-    <section>
+    <section class="sombra">
         <h2 id="servicios">Servicios</h2>
 
-        <p>Odontología</p>
-        <img src="" alt="">
+        <div class="servicios" >
+            
+            <div class="tarjeta" onclick="rotarTarjeta()">
+                <div class="front" style="background-image: url(img/panoramica-recepcion.png)">
+                    <p>Odontología</p>
+                </div>
+                <div class="back">
+                    <div class="text">Otra información aquí</div>
+                </div>
+            </div>
 
-        <p>Fisioterapia</p>
-        <img src="" alt="">
+            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
+                <div class="front">
+                    <p>Fisioterapia</p>
+                </div>
+            </div>
+            
+            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
+                <div class="front">
+                    <p>Estética</p>
+                </div>
+            </div>
 
-        <p>Estética</p>
-        <img src="" alt="">
-
-        <p>Podología</p>
-        <img src="" alt="">
-
-        <p>Psicología</p>
-        <img src="" alt="">
-
-        <p>Medicina estética</p>
-        <img src="" alt="">
+            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
+                <div class="front">
+                    <p>Podología</p>
+                </div>
+            </div>
+            
+            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
+                <div class="front">
+                    <p>Psicología</p>
+                </div>
+            </div>
+            
+            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
+                <div class="front">
+                    <p>Medicina estética</p>
+                </div>
+            </div>
+            
+        </div>
+        
     </section>
 
-    <section>
+    <section class="seccion-oscura sombra">
         <h3 id="odontologia">Odontología</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
         <img src="" alt="">
@@ -97,10 +144,10 @@
             <path d="M12 9v6" />
         </svg>
         <p>Implantología</p>
-        <a href="#contacto">Pide tu cita</a>
+        <a class="boton-claro" href="#contacto">Pide tu cita</a>
     </section>
 
-    <section>
+    <section class="seccion-clara sombra">
         <h3 id="fisioterapia">Fisioterapia</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
         <img src="" alt="">
@@ -133,10 +180,10 @@
             <path d="M12 9v6" />
         </svg>
         <p>Reeducación postural</p>
-        <a href="#contacto">Pide tu cita</a>
+        <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
     </section>
 
-    <section>
+    <section class="seccion-oscura sombra">
         <h3 id="estetica">Estética</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
         <img src="" alt="">
@@ -169,10 +216,10 @@
             <path d="M12 9v6" />
         </svg>
         <p>Ultrasonidos focalizados</p>
-        <a href="#contacto">Pide tu cita</a>
+        <a class="boton-claro" href="#contacto">Pide tu cita</a>
     </section>
 
-    <section>
+    <section class="seccion-clara sombra">
         <h3 id="podologia">Podología</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
         <img src="" alt="">
@@ -205,10 +252,10 @@
             <path d="M12 9v6" />
         </svg>
         <p>Soluciones Ortopédicas</p>
-        <a href="#contacto">Pide tu cita</a>
+        <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
     </section>
 
-    <section>
+    <section class="seccion-oscura sombra">
         <h3 id="psicologia">Psicología</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
         <img src="" alt="">
@@ -241,10 +288,10 @@
             <path d="M12 9v6" />
         </svg>
         <p>TERAPIA JUVENIL</p>
-        <a href="#contacto">Pide tu cita</a>
+        <a class="boton-claro" href="#contacto">Pide tu cita</a>
     </section>
 
-    <section>
+    <section class="seccion-clara sombra">
         <h3 id="medicinaEstetica">Medicina estética</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
         <img src="" alt="">
@@ -271,7 +318,7 @@
             <path d="M12 9v6" />
         </svg>
         <p>Mesoterapia facial/corporal</p>
-        <a href="#contacto">Pide tu cita</a>
+        <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
     </section>
 
     <section>
@@ -349,5 +396,8 @@
     <footer>
 
     </footer>
+
+<script src="js/scripts.js"></script>    
+
 </body>
 </html>
