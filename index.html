@@ -40,8 +40,8 @@
 
         <div class="sobre-nosotros">
             <div class="sobre-nosotros-izq">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales neque a semper accumsan. Donec dignissim pretium ipsum sed porttitor. Praesent eget urna quis dui laoreet dapibus. Cras tristique lobortis ante sed ultrices. Nunc rhoncus purus elit, et faucibus est mattis vel. Etiam efficitur nisi ac lacus fringilla, at fringilla elit condimentum. </p>
-                <p>Etiam rhoncus ultricies ullamcorper. Pellentesque auctor augue a ipsum fermentum tincidunt. Donec felis diam, egestas blandit turpis non, luctus luctus est. In molestie nibh a urna tincidunt, id lobortis felis auctor. Integer fringilla metus non elit feugiat, non porta metus fermentum. Proin tincidunt vulputate massa, quis venenatis ligula aliquam sodales. Vivamus pulvinar, dui nec lacinia congue, sapien magna auctor libero, vitae iaculis odio lorem maximus ante. Sed vel sapien rhoncus sem tincidunt feugiat.</p>
+                <p>Surge hace más de 20 años de la mano de una familia de odontólogos y con la colaboración de laboratorio dental propio también familiar con la idea de ofrecer el trato más personal y cercano a cada paciente. Hoy la doctora Delgado Honrubia, segunda generación de dentistas, capitanea el equipo profesional de ambos centros. </p>
+                <p>Etiam rhoncus ultricies ullamcorper. Pellentesque auctor augue a ipsum fermentum tincidunt. Donec felis diam, egestas blandit turpis non, luctus luctus est. In molestie nibh a urna tincidunt, id lobortis felis auctor. Integer fringilla metus non elit feugiat, non porta metus fermentum. Sed vel sapien rhoncus sem tincidunt feugiat.</p>
 
                 <img class="sobre-nosotros-opacidad" src="img/tratamiento.jpg" alt="">
             </div>
@@ -58,42 +58,141 @@
 
         <div class="servicios" >
             
-            <div class="tarjeta" onclick="rotarTarjeta()">
-                <div class="front" style="background-image: url(img/panoramica-recepcion.png)">
+            <div class="tarjeta-uno" onclick="rotarTarjeta1()">
+                <div class="front" style="background-image: url(img/odontologia.png)">
                     <p>Odontología</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-click" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+                        <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5" />
+                        <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+                        <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+                        <path d="M5 3l-1 -1" />
+                        <path d="M4 7h-1" />
+                        <path d="M14 3l1 -1" />
+                        <path d="M15 6h1" />
+                      </svg>
                 </div>
                 <div class="back">
-                    <div class="text">Otra información aquí</div>
+                    <div class="text">
+                        <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
+                        <a href="#odontologia" class="boton-claro">Más información</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
-                <div class="front">
+            <div class="tarjeta-dos" onclick="rotarTarjeta2()">
+                <div class="front" style="background-image: url(img/fisioterapia.png)">
                     <p>Fisioterapia</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-click" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+                        <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5" />
+                        <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+                        <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+                        <path d="M5 3l-1 -1" />
+                        <path d="M4 7h-1" />
+                        <path d="M14 3l1 -1" />
+                        <path d="M15 6h1" />
+                      </svg>
                 </div>
-            </div>
-            
-            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
-                <div class="front">
-                    <p>Estética</p>
+                <div class="back">
+                    <div class="text">
+                        <p>Nos centramos en el tratamiento de problemas de origen musculo-esquelético gracias al uso terapéutico de nuestras herramientas más importantes: las manos.</p>
+                        <a href="#fisioterapia" class="boton-claro">Más información</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
-                <div class="front">
+            <div class="tarjeta-tres" onclick="rotarTarjeta3()">
+                <div class="front" style="background-image: url(img/estetica.png)">
+                    <p>Estética</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-click" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+                        <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5" />
+                        <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+                        <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+                        <path d="M5 3l-1 -1" />
+                        <path d="M4 7h-1" />
+                        <path d="M14 3l1 -1" />
+                        <path d="M15 6h1" />
+                      </svg>
+                </div>
+                <div class="back">
+                    <div class="text">
+                        <p>Otra información aquí</p>
+                        <a href="#estetica" class="boton-claro">Más información</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tarjeta-cuatro" onclick="rotarTarjeta4()">
+                <div class="front" style="background-image: url(img/podologia.png)">
                     <p>Podología</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-click" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+                        <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5" />
+                        <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+                        <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+                        <path d="M5 3l-1 -1" />
+                        <path d="M4 7h-1" />
+                        <path d="M14 3l1 -1" />
+                        <path d="M15 6h1" />
+                      </svg>
+                </div>
+                <div class="back">
+                    <div class="text">
+                        <p>Contamos con los recursos necesarios y más avanzados para la exploración, radiodiagnóstico y tratamiento de nuestros pacientes.</p>
+                        <a href="#podologia" class="boton-claro">Más información</a>
+                    </div>
                 </div>
             </div>
-            
-            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
-                <div class="front">
+
+            <div class="tarjeta-cinco" onclick="rotarTarjeta5()">
+                <div class="front" style="background-image: url(img/psicologia.png)">
                     <p>Psicología</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-click" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+                        <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5" />
+                        <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+                        <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+                        <path d="M5 3l-1 -1" />
+                        <path d="M4 7h-1" />
+                        <path d="M14 3l1 -1" />
+                        <path d="M15 6h1" />
+                      </svg>
+                </div>
+                <div class="back">
+                    <div class="text">
+                        <p>Otra información aquí</p>
+                        <a href="#psicologia" class="boton-claro">Más información</a>
+                    </div>
                 </div>
             </div>
-            
-            <div class="tarjeta" style="background-image: url(img/panoramica-recepcion.png)">
-                <div class="front">
+
+            <div class="tarjeta-seis" onclick="rotarTarjeta6()">
+                <div class="front" style="background-image: url(img/medicina-estetica.png)">
                     <p>Medicina estética</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-click" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+                        <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5" />
+                        <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+                        <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+                        <path d="M5 3l-1 -1" />
+                        <path d="M4 7h-1" />
+                        <path d="M14 3l1 -1" />
+                        <path d="M15 6h1" />
+                      </svg>
+                </div>
+                <div class="back">
+                    <div class="text">
+                        <p>Otra información aquí</p>
+                        <a href="#medicinaEstetica" class="boton-claro">Más información</a>
+                    </div>
                 </div>
             </div>
             
@@ -101,294 +200,568 @@
         
     </section>
 
-    <section class="seccion-oscura sombra">
-        <h3 id="odontologia">Odontología</h3>
+    <section id="odontologia" class="seccion-oscura sombra">
+        <h3>Odontología</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
-        <img src="" alt="">
-        <p><b>Haz click en</b> 
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-                <path d="M9 12h6" />
-                <path d="M12 9v6" />
-            </svg> 
-            para conocer más detalles de nuestros servicios.
-        </p>
-
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Ortodoncia</p>
         
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Blanqueamiento dental</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Protesis dental</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Implantología</p>
-        <a class="boton-claro" href="#contacto">Pide tu cita</a>
+        <div class="especialidad">
+            
+            <div>
+                <img src="img/odontologia2.png" alt="">
+            </div>
+
+            <div class="detalles-especialidades">
+                <p><b>Haz click en</b> 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M9 12h6" />
+                        <path d="M12 9v6" />
+                    </svg> 
+                    para conocer más detalles de nuestros servicios.
+                </p>
+                
+                <p id="info-ortodoncia">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Ortodoncia</p>
+
+                    <div id="tarjeta-ortodoncia" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Corrige el alineamiento y la mordida de los dientes.</p>
+                        <p>Tras el estudio de cada paciente determinamos cual es la opción que mejor se adapta al estado general de la salud de su boca, dientes y encías.</p>
+                    </div>
+                
+                <p id="info-blanqueamiento">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Blanqueamiento dental</p>
+
+                    <div id="tarjeta-blanqueamiento" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Somos conscientes de la importancia de la sonrisa y todo lo que ella refleja de nosotros mismos.</p>
+                        <p>Refleja nuestra personalidad y es nuestra carta de presentación hacia el mundo. Tiene un gran impacto en nuestro entorno Laboral, Social, Familiar….</p>
+                        <p>En los Centros Médicos Sanidental contamos con los mejores tratamientos para que esa sonrisa luzca siempre resplandeciente, no solo dientes, sino también encías, labios y arrugas externas.</p>
+                    </div>
+
+                <p id="info-protesis">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Protesis dental</p>
+
+                    <div id="tarjeta-protesis" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Podemos reponer aquellas piezas que por distintos problemas hemos perdido o extraído y también podremos reparar piezas que han sido dañadas y conseguir así que no lleguen a perderse.</p>
+                        <p>Analizamos cada caso, pues cada caso depende de muchos factores, protesis movible o fija, tipo de materiales, numero de dientes a sustituir, estado de las encías o resto de piezas…. y ofrecemos al paciente la posibilidad de elegir el tipo de solución que más le convenga</p>
+                    </div>
+
+                <p id="info-implantologia">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Implantología</p>
+
+                    <div id="tarjeta-implantologia" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Los implantes dentales están creados para la reconstrucción de uno o varios dientes de manera qué se sienten y funcionan igual que las piezas perdidas. El paciente podrá disfrutar cómo si fueran sus propios dientes de una forma natural y segura.</p>
+                        <p>Aunque en un primer momento lo consideres un problema solamente estético, finalmente te das cuenta de qué el resto de piezas trabajan por las que no están y esto repercute en la forma de masticar y comer y  genera desprendimientos, cargas excesivas y roturas en otras piezas.</p>
+                        <p>La colocación de un implante consta de varias fases, a lo largo de las cuales estaremos contigo haciendo un seguimiento continuo</p>
+                    </div>
+
+                <a class="boton-claro" href="#contacto">Pide tu cita</a>
+            </div>
+        </div>
+         
     </section>
 
-    <section class="seccion-clara sombra">
-        <h3 id="fisioterapia">Fisioterapia</h3>
-        <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
-        <img src="" alt="">
-        <p><b>Haz click en</b> + para conocer más detalles de nuestros servicios.</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Lesiones deportivas</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Terapia con indiba</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>ATM (Bruxismo)</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Reeducación postural</p>
-        <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
+    <section id="fisioterapia" class="seccion-clara sombra">
+        <h3>Fisioterapia</h3>
+        <p>Disciplina sanitaria basada en el tratamiento de problemas de origen musculo-esquelético gracias al uso terapéutico de nuestras herramientas más importantes: las manos.</p>
+        
+        <div class="especialidad">
+            
+            <div>
+                <img src="img/fisioterapia2.png" alt="">
+            </div>
+
+            <div class="detalles-especialidades">
+                <p><b>Haz click en</b> 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M9 12h6" />
+                        <path d="M12 9v6" />
+                    </svg> 
+                    para conocer más detalles de nuestros servicios.
+                </p>
+                
+                <p id="info-lesiones">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Lesiones deportivas</p>
+
+                    <div id="tarjeta-lesiones" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>En nuestra clínica de fisioterapia especializada en deportes, ofrecemos atención experta para todo tipo de lesiones deportivas. Nuestro equipo personalizado y enfoque integral te ayudarán a recuperarte rápidamente y prevenir futuras lesiones.</p>
+                        <p>¡Contáctanos hoy para comenzar tu camino hacia una recuperación activa y sin dolor!</p>
+                    </div>
+                
+                <p id="info-terapia">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Terapia con indiba</p>
+
+                    <div id="tarjeta-terapia" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>¡Descubre los beneficios de la terapia con INDIBA en nuestra especialidad de fisioterapia! Nuestro equipo especializado ofrece tratamientos personalizados que utilizan esta avanzada tecnología para acelerar la recuperación, reducir el dolor y mejorar la función muscular. ¡Contáctanos hoy mismo para experimentar los resultados de la terapia con INDIBA y recuperar tu bienestar!</p>
+                    </div>
+
+                <p id="info-bruxismo">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> ATM (Bruxismo)</p>
+
+                    <div id="tarjeta-bruxismo" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Explora cómo la terapia de ATM puede aliviar el bruxismo. Nuestro equipo especializado ofrece tratamientos personalizados para reducir el dolor, mejorar la función mandibular y promover una salud bucal óptima. ¡Contáctanos hoy para empezar a disfrutar de una vida libre de molestias!</p>
+                    </div>
+
+                <p id="info-reeducacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Reeducación postural</p>
+
+                    <div id="tarjeta-reeducacion" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Descubre los beneficios de la reeducación postural. Nuestro equipo especializado ofrece programas personalizados para corregir desequilibrios musculares, aliviar el dolor y mejorar la postura. ¡Contáctanos hoy mismo para comenzar tu camino hacia una postura saludable y un bienestar duradero!</p>
+                    </div>
+
+                <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
+            </div>
+        </div>
+         
     </section>
 
-    <section class="seccion-oscura sombra">
-        <h3 id="estetica">Estética</h3>
+    <section id="estetica" class="seccion-oscura sombra">
+        <h3>Estética</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
-        <img src="" alt="">
-        <p><b>Haz click en</b> + para conocer más detalles de nuestros servicios.</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Indiba facial</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Hidrfacial</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Depilación laser</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Ultrasonidos focalizados</p>
-        <a class="boton-claro" href="#contacto">Pide tu cita</a>
+        
+        <div class="especialidad">
+            
+            <div>
+                <img src="img/estetica2.png" alt="">
+            </div>
+
+            <div class="detalles-especialidades">
+                <p><b>Haz click en</b> 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M9 12h6" />
+                        <path d="M12 9v6" />
+                    </svg> 
+                    para conocer más detalles de nuestros servicios.
+                </p>
+                
+                <p id="info-indiba">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Indiba facial</p>
+
+                    <div id="tarjeta-indiba" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>La tecnología indiba permite realizar tratamientos no-invasivos y sin dolor tanto en el rostro como en el cuerpo, que aportan los siguientes beneficios:</p>
+                        <ul>
+                            <li>Ayuda a la regeneración celular.</li>
+                            <li>Reequilibra las células.</li>
+                            <li>Activa el metabolismo celular.</li>
+                            <li>Ayuda a la producción de colágeno y elastina. </li>
+                            <li>Piel más hidratada y firme.</li>
+                            <li>Reduce la grasa localizada sin dañar otras células y además evita la nueva formación de grasa en los tejidos tratados.</ul>
+                        </ul> 
+                    </div>
+                
+                <p id="info-hidrafacial">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Hidrafacial</p>
+
+                    <div id="tarjeta-hidrafacial" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Experimenta la transformación de tu piel con los tratamientos Hidrafacial en nuestra especialidad estética. Nuestro equipo especializado ofrece sesiones personalizadas que combinan limpieza profunda, exfoliación e hidratación para dejar tu piel radiante y rejuvenecida al instante.</p>
+                        <p>¡Contáctanos hoy mismo para descubrir cómo el Hidrafacial puede revitalizar tu cutis y mejorar tu confianza!</p>      
+                    </div>
+
+                <p id="info-depilacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Depilación laser</p>
+
+                    <div id="tarjeta-depilacion" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Descubre la libertad de una piel suave y sin vello con nuestros tratamientos de depilación láser. Ofrecemos sesiones seguras y efectivas para eliminar el vello no deseado de manera permanente.</p>
+                        <p>¡Contáctanos hoy mismo para decir adiós a la depilación tradicional y disfrutar de resultados duraderos y sin preocupaciones!</p>
+                    </div>
+
+                <p id="info-ultrasonidos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Ultrasonidos focalizados</p>
+
+                    <div id="tarjeta-ultrasonidos" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Explora los beneficios de los ultrasonidos focalizados. Tenemos tratamientos personalizados que utilizan esta avanzada tecnología para tonificar la piel, reducir la grasa localizada y mejorar la apariencia corporal.</p> 
+                        <p>¡Contáctanos hoy mismo para descubrir cómo los ultrasonidos focalizados pueden ayudarte a alcanzar tus objetivos estéticos!</p>
+                    </div>
+
+                <a class="boton-claro" href="#contacto">Pide tu cita</a>
+            </div>
+        </div>
+         
     </section>
 
-    <section class="seccion-clara sombra">
-        <h3 id="podologia">Podología</h3>
-        <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
-        <img src="" alt="">
-        <p><b>Haz click en</b> + para conocer más detalles de nuestros servicios.</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Estudio biomécanico</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Quiropedia</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Prevención de lesiones</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Soluciones Ortopédicas</p>
-        <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
+    <section id="podologia" class="seccion-clara sombra">
+        <h3>Podología</h3>
+        <p>Ofrecemos un trato individualizado adaptándonos a cada paciente y a sus necesidades, contamos con los recursos necesarios y más avanzados para la exploración, radiodiagnóstico y tratamiento de nuestros pacientes, desde el punto de vista quirúrgico y ortopédico.</p>
+        
+        <div class="especialidad">
+            
+            <div>
+                <img src="img/podologia2.png" alt="">
+            </div>
+
+            <div class="detalles-especialidades">
+                <p><b>Haz click en</b> 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M9 12h6" />
+                        <path d="M12 9v6" />
+                    </svg> 
+                    para conocer más detalles de nuestros servicios.
+                </p>
+                
+                <p id="info-biomecanico">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Estudio biomécanico</p>
+
+                    <div id="tarjeta-biomecanico" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Descubre el poder del estudio biomecánico. Nuestro equipo especializado ofrece análisis detallados de la marcha y la biomecánica del pie para identificar desequilibrios y prevenir lesiones.</p>
+                        <p>Ofrecemos un enfoque personalizado, diseñamos plantillas ortopédicas y recomendamos tratamientos para mejorar tu salud podal.</p>
+                        <p>¡Contáctanos hoy mismo para dar el primer paso hacia una pisada más saludable y libre de dolor!</p>
+                    </div>
+                
+                <p id="info-quiropedia">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Quiropedia</p>
+
+                    <div id="tarjeta-quiropedia" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Sumérgete en el cuidado experto de tus pies con nuestros tratamientos de quiropodia.</p>
+                        <p>Nuestro equipo especializado ofrece servicios profesionales para tratar y prevenir afecciones como callosidades, durezas, uñas encarnadas y otras molestias podales.</p>
+                        <p>¡Contáctanos hoy mismo para disfrutar de pies saludables y cómodos!</p>
+                    </div>
+
+                <p id="info-prevencion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Prevención de lesiones</p>
+
+                    <div id="tarjeta-prevencion" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Descubre cómo cuidar y proteger tus pies con nuestros programas de prevención de lesiones. </p>
+                        <p>En nuestra especialidad podológica, ofrecemos asesoramiento experto y recomendaciones personalizadas para fortalecer los pies, mejorar la biomecánica y reducir el riesgo de lesiones como esguinces, fascitis plantar y otras afecciones comunes.</p>
+                        <p>¡Contáctanos hoy mismo para mantener tus pies sanos y activos!</p>
+                    </div>
+
+                <p id="info-ortopedicas">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Soluciones Ortopédicas</p>
+
+                <div id="tarjeta-ortopedicas" class="tarjeta-especialidad-oscura" style="display: none;">
+                    <p>Encuentra soluciones ortopédicas a medida para tus necesidades. Nuestro equipo ofrece una amplia gama de productos ortopédicos, desde plantillas personalizadas hasta calzado especializado, diseñados para mejorar la movilidad, aliviar el dolor y promover una vida activa y saludable.</p>
+                    <p>¡Contáctanos hoy mismo para encontrar la solución perfecta para ti!</p>
+                </div>
+
+                <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
+            </div>
+        </div>
     </section>
 
-    <section class="seccion-oscura sombra">
-        <h3 id="psicologia">Psicología</h3>
+    <section id="psicologia" class="seccion-oscura sombra">
+        <h3>Psicología</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
-        <img src="" alt="">
-        <p><b>Haz click en</b> + para conocer más detalles de nuestros servicios.</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Terapia parejas</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Terapia familiar</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Terapia adultos</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>TERAPIA JUVENIL</p>
-        <a class="boton-claro" href="#contacto">Pide tu cita</a>
+        
+        <div class="especialidad">
+            <div>
+                <img src="img/psicologia2.png" alt="">
+            </div>
+
+            <div class="detalles-especialidades">
+                <p><b>Haz click en</b> 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M9 12h6" />
+                        <path d="M12 9v6" />
+                    </svg> 
+                    para conocer más detalles de nuestros servicios.
+                </p>
+                
+                <p id="info-parejas">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Terapia parejas</p>
+
+                    <div id="tarjeta-parejas" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Explora cómo nuestra terapia de parejas puede fortalecer tu relación en nuestra consulta de psicología.</p>
+                        <p>Nuestro equipo especializado ofrece un espacio seguro y de apoyo donde pueden abordarse los desafíos y conflictos, aprender habilidades de comunicación efectiva y trabajar juntos para construir una conexión más sólida y satisfactoria.</p>
+                        <p>¡Contáctanos hoy para comenzar el viaje hacia una relación más saludable y feliz!</p>
+                    </div>
+                
+                <p id="info-familiar">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Terapia familiar</p>
+
+                    <div id="tarjeta-familiar" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Descubre el poder de la terapia familiar en nuestra práctica de psicología.</p>
+                        <p>Nuestro equipo especializado ofrece un entorno de apoyo donde cada miembro de la familia puede expresarse libremente, resolver conflictos y fortalecer los vínculos. Con enfoque centrado en la familia, trabajamos juntos para superar desafíos, promover la comunicación efectiva y construir relaciones más sólidas y saludables.</p>
+                        <p>¡Contáctanos hoy mismo para empezar a construir un futuro familiar más armonioso y feliz!</p>
+                    </div>
+
+                <p id="info-adultos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Terapia adultos</p>
+
+                    <div id="tarjeta-adultos" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Descubre cómo nuestra terapia para adultos puede ayudarte a enfrentar los desafíos de la vida y alcanzar tu bienestar emocional.</p>
+                        <p>En nuestra práctica de psicología, ofrecemos un espacio confidencial y de apoyo donde puedes explorar tus pensamientos, emociones y comportamientos, trabajar en el crecimiento personal y aprender habilidades para manejar el estrés y las dificultades.</p>
+                        <p>¡Contáctanos hoy mismo para empezar tu viaje hacia una vida más satisfactoria y equilibrada!</p>
+                    </div>
+
+                <p id="info-juvenil">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Terapia Juvenil</p>
+
+                    <div id="tarjeta-juvenil" class="tarjeta-especialidad-clara" style="display: none;">
+                        <p>Explora cómo nuestra terapia juvenil puede apoyar a los jóvenes en su viaje hacia el bienestar emocional y el desarrollo personal.</p>
+                        <p>En nuestra especialidad de psicología, ofrecemos un ambiente seguro y comprensivo donde los adolescentes pueden explorar sus preocupaciones, aprender habilidades para manejar el estrés y las emociones, y fortalecer su autoestima. Nuestro equipo especializado está aquí para ayudarles a superar los desafíos y construir una base sólida para un futuro saludable y satisfactorio.</p>
+                        <p>¡Contáctanos hoy mismo para comenzar este importante viaje!</p>
+                    </div>
+
+                <a class="boton-claro" href="#contacto">Pide tu cita</a>
+            </div>
+        </div>    
     </section>
 
-    <section class="seccion-clara sombra">
-        <h3 id="medicinaEstetica">Medicina estética</h3>
+    <section id="medicinaEstetica" class="seccion-clara sombra">
+        <h3>Medicina estética</h3>
         <p>Tratamientos odontólogicos con equipos de última generación. Ofrecemos la mejor calidad en tratamientos personalizados.</p>
-        <img src="" alt="">
-        <p><b>Haz click en</b> + para conocer más detalles de nuestros servicios.</p>
-        <p>Neuromodulación</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Rejuvenecimiento facial</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Hilos Tensores</p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
-        </svg>
-        <p>Mesoterapia facial/corporal</p>
-        <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
+        
+        <div class="especialidad">
+            
+            <div>
+                <img src="img/medicina-estetica2.png" alt="">
+            </div>
+
+            <div class="detalles-especialidades">
+                <p><b>Haz click en</b> 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M9 12h6" />
+                        <path d="M12 9v6" />
+                    </svg> 
+                    para conocer más detalles de nuestros servicios.
+                </p>
+                
+                <p id="info-neuromodulacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Neuromodulación</p>
+
+                    <div id="tarjeta-neuromodulacion" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Descubre los avances en neuromodulación para medicina estética en nuestra clínica especializada.</p>
+                        <p>Nuestro equipo ofrece tratamientos innovadores que utilizan tecnologías de vanguardia para mejorar la apariencia facial y corporal de forma no invasiva. Desde la reducción de arrugas hasta el contorno corporal, nuestra terapia de neuromodulación ofrece resultados naturales y duraderos.</p>
+                        <p>¡Contáctanos hoy mismo para empezar a rejuvenecer tu aspecto con seguridad y confianza!</p>
+                    </div>
+                
+                <p id="info-rejuvenecimiento">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Rejuvenecimiento facial</p>
+
+                    <div id="tarjeta-rejuvenecimiento" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>¡Descubre la clave para un rejuvenecimiento total con nuestra tarjeta de tratamiento especializado!</p>
+                        <p>Con nuestra tarjeta de rejuvenecimiento, tendrás acceso a una variedad de tratamientos estéticos diseñados para revitalizar tu piel, reducir arrugas y mejorar tu apariencia general. Desde terapias faciales hasta tratamientos corporales, nuestra tarjeta te brinda flexibilidad para elegir los servicios que mejor se adapten a tus necesidades.</p>
+                        <p>¡Contáctanos hoy para obtener más información sobre cómo empezar tu viaje hacia una nueva versión de ti mismo!</p>
+                    </div>
+
+                <p id="info-hilos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Hilos Tensores</p>
+
+                    <div id="tarjeta-hilos" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Experimenta la elevación natural y rejuvenecimiento facial con nuestros innovadores hilos tensores.</p>
+                        <p>En nuestra especialidad de medicina estética, ofrecemos tratamientos personalizados que utilizan esta técnica segura y efectiva para mejorar la firmeza y elasticidad de la piel, reduciendo la flacidez y las líneas de expresión.</p>
+                        <p>¡Contáctanos hoy para descubrir cómo los hilos tensores pueden revitalizar tu rostro y restaurar tu confianza en ti mismo!</p>
+                    </div>
+
+                <p id="info-mesoterapia">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M9 12h6" />
+                    <path d="M12 9v6" />
+                </svg> Mesoterapia facial/corporal</p>
+
+                    <div id="tarjeta-mesoterapia" class="tarjeta-especialidad-oscura" style="display: none;">
+                        <p>Descubre la belleza en la precisión de la mesoterapia facial/corporal.</p>
+                        <p>Nuestro tratamiento personalizado utiliza microinyecciones de nutrientes, vitaminas y antioxidantes para revitalizar tu piel desde adentro hacia afuera. Ya sea para rejuvenecer tu rostro o tonificar tu cuerpo, la mesoterapia ofrece resultados visibles y duraderos.</p>
+                        <p>¡Contáctanos hoy mismo para empezar tu viaje hacia una piel radiante y un cuerpo esculpido!</p>
+                    </div>
+
+                <a class="boton-oscuro" href="#contacto">Pide tu cita</a>
+            </div>
+        </div>
     </section>
+
+    
 
     <section>
         <h3 id="galeria">Galería</h3>
     </section>
 
-    <section>
+    <section class="contacto">
         <h3 id="contacto">Contacto</h3>
-        <form action="">
+        <form class="formulario">
             <fieldset>
-                <legend></legend>
+                <legend>Contáctanos llenando todos los campos</legend>
 
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu nombre">
-
-                    <label>Correo electrónico</label>
-                    <input type="email" placeholder="Tu email">
-                </div>
-                
-                <div>
-                    <label>Teléfono de contacto</label>
-                    <input type="tel" placeholder="Tu teléfono">
-
-                    <label>Clinica</label>
-                    <select name="opciones-centro">
-                        <option value="Villaverde">Centro médico LE SANTÉ Villaverde</option>
-                        <option value="Ciudad de Barcelona">Centro médico LE SANTÉ Ciudad de Barcelona</option>
-                    </select>
-
-                </div>
-                
-                <div>
-                    <label>Especialidad</label>
-                    <select name="opciones-especialidad">
-                        <option value="Odontología">Odontología</option>
-                        <option value="Fisioterapia">Fisioterapia</option>
-                        <option value="Estética">Estética</option>
-                        <option value="Podología">Podología</option>
-                        <option value="Psicología">Psicología</option>
-                        <option value="Medicina estética">Medicina estética</option>
-                    </select>
-
-                    <label>Hora preferida</label>
-                    <select name="opciones-hora">
-                        <option value="Cualquier hora">A cualquier hora</option>
-                        <option value="Mañana">Mañana (10:00-12:00)</option>
-                        <option value="Medio día">Medio día (12:00-15:00)</option>
-                        <option value="Tarde">Tarde (15:00-18:00)</option>
-                        <option value="Tarde-noche">Tarde-noche (18:00-20:00)</option>
-                    </select>
-                </div>
+                <div class="campo-contenedor">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu nombre">
+                    </div>    
+                    <div class="campo">    
+                        <label>Correo electrónico</label>
+                        <input class="input-text" type="email" placeholder="Tu email">
+                    </div>
                     
-                <div>
-                    <label>Tipo de consulta</label>
-                    <input type="radio">
-                    <label>primera consulta gratuita</label>
-                    <input type="radio">
-                    <label>Consulta general</label>
-                </div>
-                
-                <div>
-                    <label>Comentario adicional</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div class="campo">
+                        <label>Teléfono de contacto</label>
+                        <input class="input-text" type="tel" placeholder="Tu teléfono">
+                    </div>
+
+                    <div class="campo"> 
+                        <label>Clinica</label>
+                        <select class="input-text" name="opciones-centro">
+                            <option value="Villaverde">Centro médico LE SANTÉ Villaverde</option>
+                            <option value="Ciudad de Barcelona">Centro médico LE SANTÉ Ciudad de Barcelona</option>
+                        </select>
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Especialidad</label>
+                        <select class="input-text" name="opciones-especialidad">
+                            <option value="Odontología">Odontología</option>
+                            <option value="Fisioterapia">Fisioterapia</option>
+                            <option value="Estética">Estética</option>
+                            <option value="Podología">Podología</option>
+                            <option value="Psicología">Psicología</option>
+                            <option value="Medicina estética">Medicina estética</option>
+                        </select>
+                    </div> 
+                    <div class="campo">  
+                        <label>Hora preferida</label>
+                        <select class="input-text" name="opciones-hora">
+                            <option value="Cualquier hora">A cualquier hora</option>
+                            <option value="Mañana">Mañana (10:00-12:00)</option>
+                            <option value="Medio día">Medio día (12:00-15:00)</option>
+                            <option value="Tarde">Tarde (15:00-18:00)</option>
+                            <option value="Tarde-noche">Tarde-noche (18:00-20:00)</option>
+                        </select>
+                    </div>
+                        
+                    <div class="campo">
+                        <label>Tipo de consulta</label>
+                        
+                        <label>Primera consulta gratuita <input type="radio" name="tipo-consulta"></label>
+                        <label>Consulta general <input type="radio" name="tipo-consulta"></label>
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Comentario adicional</label>
+                        <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="campo">
+                        <label><input type="checkbox" required>  Aceptar la política de privacidad</label>
+                        <input type="submit" class="boton-claro w-sm-100" value="Enviar">
+                    </div>
                 </div>
 
-                <div>
-                    <input type="checkbox"><label>Aceptar la política de privacidad</label>
-                    <input type="submit">
-                </div>
             </fieldset>
         </form>
     </section>
