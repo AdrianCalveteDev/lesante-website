@@ -49,6 +49,8 @@ infoTarjetaOrtodoncia.addEventListener('click', () => {
   }  
 });
 
+// comentario pruebas
+
 //Blanqueamiento Dental
 const infoTarjetaBlanqueamiento = document.getElementById('info-blanqueamiento');
 const tarjetaBlanqueamiento = document.getElementById('tarjeta-blanqueamiento');
